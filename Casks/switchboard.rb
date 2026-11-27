@@ -1,7 +1,7 @@
 cask "switchboard" do
   # update-switchboard.sh sets version and sha256 from the release's own download on GitHub.
-  version "0.2.0"
-  sha256 "bbed7e89a356d00ce8f05076ddd57586fbca9db8185df6651fe479c039aafa6e"
+  version "0.3.0"
+  sha256 "6bb6c199c87732a035fe5d455d1e537b33fe09b5274b2fc09fc39f33af4270e9"
 
   url "https://github.com/amyjainberkeley/switchboard/releases/download/v#{version}/switchboard-#{version}.tar.gz"
   name "Switchboard"
